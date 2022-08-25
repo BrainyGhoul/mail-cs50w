@@ -1,0 +1,43 @@
+textarea {
+    min-height: 400px;
+}
+.emailcard {
+    background-color: white;
+    border: 1px solid rgb(100, 162, 220);
+    border-radius: 2px;
+    margin-bottom: 5px;
+    box-shadow: 1px 2px 10px rgb(190, 189, 189);
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: max-content max-content auto;
+}
+.cardemail {
+    font-weight: bold;
+    font-size: medium;
+    
+}
+.cardsubject {
+    font-style: italic;
+}
+.cardtime {
+    
+    margin-left: auto;
+    color: darkgray;
+    text-align: right;
+}
+.card-text {
+    margin: 5px;
+    padding: 10px;
+}
+.email_subject {
+    font-weight: bold;
+    font-size: medium;
+}
+.email_body {
+    margin: 20px auto 0px auto;
+    display: inline-block;
+    width: 90%;
+}
+#email-body {
+    margin:20px;
+}
